@@ -43,7 +43,7 @@ class Deck extends Component {
 
   render() {
     const cards = this.state.drawn.map((card) => (
-      <Card name={card.name} image={card.image} id={card.id} />
+      <Card name={card.name} image={card.image} key={card.id} />
     ));
     return (
       <div>

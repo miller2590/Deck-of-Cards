@@ -8,7 +8,7 @@ class Card extends Component {
           className="Card"
           src={this.props.image}
           alt={this.props.name}
-          id={this.props.id}
+          key={this.props.id}
         />
       </div>
     );
